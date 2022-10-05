@@ -1,2 +1,2 @@
 #!/bin/bash
-find /tmp/sym -name '[[:upper:]]*' -exec mv -t ~/tmp/u {} +
+find ${PWD} -name '[[:upper:]]*' -exec mv -t ~/tmp/u {} +
