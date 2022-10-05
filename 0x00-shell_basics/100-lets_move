@@ -1,2 +1,2 @@
 #!/bin/bash
-find ${PWD} -name '[[:upper:]]*' -exec mv -t ~/tmp/u {} +
+find /alx-system_engineering-devops/0x00-shell_basics -name '[[:upper:]]*' -exec mv -t ~/tmp/u {} +
