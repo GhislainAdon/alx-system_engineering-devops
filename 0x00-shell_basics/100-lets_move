@@ -1,2 +1,2 @@
 #!/bin/bash
-mv /tmp/sym/^[A-Z] /tmp/u
+find /tmp/sym -name '[[:upper:]]*' -exec mv -t ~/tmp/u {} +
